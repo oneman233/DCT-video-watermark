@@ -14,7 +14,7 @@ AddWatermark.m|`after_picture = AddWatermark(picture, watermark, alpha)`|向指�
 ExtractWatermark.m|`watermark=ExtractWatermark(after_picture, picture, alpha, MW, NW)`|从指定图片中提取水印，要求给出水印的长 `MW`、水印的宽 `MW` 以及嵌入强度 `alpha`
 Gray2Rgb.m|`rgb=Gray2Rgb(gray)`|将灰度图片的三个通道组合为 RGB 图片
 VideoPrcess.m|`VideoProcess(alpha, videopath, watermarkpath)`|向视频添加水印，每一帧中都进行添加
-main.m|\\|主函数
+main.m|\|主函数
 
 ## 三种攻击方式
 
