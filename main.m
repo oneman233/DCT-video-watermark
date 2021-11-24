@@ -5,7 +5,11 @@ VIDEO_PATH = 'never_gonna_give_you_up.mp4';
 TEST_PATH = 'lena.png';
 WATERMARK_PATH = 'seu_logo.jpg';
 
-VideoProcess(1, VIDEO_PATH, WATERMARK_PATH);
+VideoProcess(1, VIDEO_PATH, WATERMARK_PATH, 500); % 处理视频
+
+% imshow(CutPicture(imread(TEST_PATH)));
+% imshow(MaxPool(imread(TEST_PATH)));
+% ImSimilar(imread(TEST_PATH), imread(TEST_PATH));
 
 % a = ReadWatermark(TEST_PATH);
 % b = ReadWatermark(WATERMARK_PATH);
